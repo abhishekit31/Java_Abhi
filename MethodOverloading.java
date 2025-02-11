@@ -9,7 +9,8 @@ class Calculator {
         // here n1 and n2 is the local variable becasue it is created iside the add
         // method.
         // here the n1 and n2 is stored in add stack
-        System.out.println(num);
+
+        System.out.println(num); // it print num = 10
         return n1 + n2;
     }
 
@@ -32,5 +33,10 @@ public class MethodOverloading {
 
         int res1 = obj.add(10, 15, 20);
         System.out.println("The additionThree is : " + res1);
+
+        Calculator obj1 = new Calculator();
+        obj1.num = 20;
+        System.out.println("from obj :" + obj.num); // hereit print num= 10;
+        System.out.println("from obj1 :" + obj1.num); // hereit print num= 20;
     }
 }
