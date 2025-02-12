@@ -12,7 +12,8 @@ class Mobile {
 
     // static method is called without creating an object of class it will call
     // directly by using className and iside the static method we can create only
-    // static variable
+    // static variable but still if u want to call the non-static varible then u
+    // need to pass the reference of that calss.
     static public void show1() {
         System.out.println("inside the static method");
         // System.out.println(name + ":" + price + ":" + brand);
