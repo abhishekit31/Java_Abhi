@@ -1,5 +1,8 @@
 abstract class Car {
     public abstract void Drive();
+
+    public abstract void Config();
+
 }
 
 // class Tyota extends Car {
@@ -14,6 +17,10 @@ public class AnonnymusInnerClass {
             // Anonnymus Inner Class
             public void Drive() {
                 System.out.println("Drivind the car.....");
+            }
+
+            public void Config() {
+                System.out.println("config the class.......");
             }
         };
         obj.Drive();
