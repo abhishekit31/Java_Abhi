@@ -1,4 +1,6 @@
+package Basic;
 // String in java is a sequence of character which is stored in any variable.
+
 // it immutable in java (means once we declare the string later we cann't changed).
 
 class Mobile {
@@ -9,9 +11,19 @@ class Mobile {
     public void show() {
         System.out.println(name + ":" + price + ":" + brand);
     }
+
+    // static method is called without creating an object of class it will call
+    // directly by using className and iside the static method we can create only
+    // static variable but still if u want to call the non-static varible then u
+    // need to pass the reference of that calss.
+    static public void show1() {
+        System.out.println("inside the static method");
+        // System.out.println(name + ":" + price + ":" + brand);
+    }
+
 }
 
-public class StringClass {
+public class StaticMethod {
     public static void main(String[] args) {
         String name = new String("Abhishek"); // here the object is crated inside the
         // heap memory.
@@ -55,5 +67,8 @@ public class StringClass {
 
         obj1.show();
         obj2.show();
+
+        // calling static method by using classNMae
+        Mobile.show1();
     }
 }

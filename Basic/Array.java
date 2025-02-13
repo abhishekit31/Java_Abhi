@@ -1,4 +1,6 @@
+package Basic;
 // Array in a java is a group of similar types of element that are respresent in 
+
 // a single variable.
 
 // once the size of array is created later on we cann't change the size of it.

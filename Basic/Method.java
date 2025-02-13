@@ -1,3 +1,5 @@
+package Basic;
+
 // Method in java is a function which is used to behavior of an object.
 class Computer {
     public void playMusic() {

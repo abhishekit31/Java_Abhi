@@ -1,3 +1,5 @@
+package Basic;
+
 class A {
     public A() {
         super();

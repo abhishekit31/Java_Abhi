@@ -1,3 +1,5 @@
+package Basic;
+
 class Mobile {
     static String name;
     int price;
