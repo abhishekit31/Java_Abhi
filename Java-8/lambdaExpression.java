@@ -1,7 +1,10 @@
+// Lambda expression is a feature introduced in java-8.
+// it is work only with Functional Interface.
+// by using lambda expression we can resduce the number of line of code.
 
 @FunctionalInterface
-interface Movie {
-    void book(int i);
+interface Calculator {
+    int add(int a, int b);
 }
 
 // class User implements Movie {
@@ -18,8 +21,9 @@ public class lambdaExpression {
         // obj.book();
 
         // lambda expression
-        Movie obj = (int i) -> System.out.println("boking inside the lambda expression..." + i);
+        Calculator obj = (a, b) -> a + b;
 
-        obj.book(5);
+        int res = obj.add(5, 5);
+        System.err.println(res);
     }
 }
