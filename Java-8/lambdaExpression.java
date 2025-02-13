@@ -1,7 +1,7 @@
 
 @FunctionalInterface
 interface Movie {
-    void book();
+    void book(int i);
 }
 
 // class User implements Movie {
@@ -18,9 +18,8 @@ public class lambdaExpression {
         // obj.book();
 
         // lambda expression
-        Movie obj = () -> {
-            System.out.println("boking inside the lambda expression...");
-        };
-        obj.book();
+        Movie obj = (int i) -> System.out.println("boking inside the lambda expression..." + i);
+
+        obj.book(5);
     }
 }
