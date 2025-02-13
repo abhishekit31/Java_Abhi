@@ -1,4 +1,6 @@
+package Abstract;
 // Abstract is keyword in java which is used to declare the method as a abstract.
+
 // abstract method is only declare iniside the abstract class.
 // if any class is extends by abstract class this is mandotory to overide all the abstract method that is declared by Abstact class.
 // we cant create an object of abtract class but we can provide the refrence of abstract class.

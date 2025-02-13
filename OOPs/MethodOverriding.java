@@ -1,4 +1,6 @@
+package OOPs;
 // Method overriding in java is inheting a method of super class and changing the implementation in sub class.
+
 // to override the method from super class sub class should re-write the same method signatureof super class.
 
 class Calc {

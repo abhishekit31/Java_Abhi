@@ -1,4 +1,6 @@
+package OOPs;
 // Encapsulation in java is conccepts of oops. 
+
 // is like a capsule where inside the capsule there are several medicines 
 //esent and no work access outside the class is caled as encapsultion.
 
