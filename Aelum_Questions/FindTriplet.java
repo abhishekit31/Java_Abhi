@@ -1,3 +1,6 @@
+/*Given an array Arr consisting of N distinct integers. The task is to count all the 
+triplets such that sum of two elements equals the third element. N = 4 arr[] = {1, 5, 3, 2} */
+
 package Aelum_Questions;
 
 import java.util.HashSet;
